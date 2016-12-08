@@ -492,6 +492,10 @@ footer .footer-below {
     text-align: center;
 }
 
+.carousel-control {
+  color: #000 !important;
+}
+
 
 @media screen and (max-width: 768px) {
   .hero-header {
