@@ -401,9 +401,13 @@ footer .footer-below {
   left: 50px;
   top: -60px;
 }
-
+#top{
+   background-image: url('../sitepngs/hero_image.jpg');
+   padding-bottom: 150px;
+   background-size: cover;
+}
 .hero-header {
-  background-image: url(/sitepngs/hero_image.jpg);
+  /*background-image: url('../sitepngs/hero_image.jpg');*/
   color: #fff;
   /*height: 530px;*/
 }
@@ -414,11 +418,12 @@ footer .footer-below {
 }
 
 .hero-text {
-  position: absolute;
-  top: 170px;
-  left: 5%;
-  width: 30%;
-  text-align: left;
+  position: relative;
+    margin-top: 170px;
+    left: 5%;
+    width: 30%;
+    text-align: left;
+    padding-bottom: 20px;
 }
 
 .hero-description {
@@ -497,10 +502,11 @@ footer .footer-below {
 }
 
 
+
 @media screen and (max-width: 768px) {
-  .hero-header {
-    /*height: 500px;*/
-  }
+  /*.hero-header {
+    height: 140px;
+  }*/
 
   .card {
     width: 80%;
@@ -508,12 +514,34 @@ footer .footer-below {
   .hero-text {
     width: 70%;
   }
+  #top{
+        padding-bottom: 50px;
+  }
+  .hero-title{
+    font-size: 20px;
+  }
+  /*.hero-description {
+      font-size: 15px;
+  }
+  .hero-link{
+    font-size: 16px;
+  }*/
+  #myNavbar{
+  background: #303030;
+}
+
 }
 
 @media screen and (max-width: 500px) {
+  /*#top{
+        height: 255px;
+  }
   .hero-text {
     top: 100px;
   }
+  .hero-title{
+    font-size: 16px;
+  }*/
 
   .card {
     width: 90%;
@@ -527,17 +555,29 @@ footer .footer-below {
     width: 80%;
     font-size: 12px;
   }
+  /*.hero-description {
+      padding-top: 1em;
+      font-size: 18px;
+      font-size: 12px;
+      color: black;
+  } 
+  .hero-link{
+    font-size: 14px;
+  }*/
+  #collab img{
+    max-width: 96%;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .hero-title {
+  /*.hero-title {
     font-size: 28px;
     font-weight: bold;
   }
 
   .hero-description {
     font-size: 16px;
-  }
+  }*/
 
   .card {
     width: 100%;
@@ -553,3 +593,5 @@ footer .footer-below {
   }
 
 }
+
+
