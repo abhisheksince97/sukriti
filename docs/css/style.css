@@ -3,27 +3,27 @@ body{
 }
 @font-face {
   font-family: ProximaNovaSoft ;
-  src: url("../Avenir/ProximaNovaSoft-Regular.otf");
+  src: url("https:/www.sukriti.ngo/Avenir/ProximaNovaSoft-Regular.otf");
 }
 @font-face {
   font-family: ProximaNovaSoft-Bold ;
-  src: url("../Avenir/PROXIMA NOVA SOFT BOLD.OTF");
+  src: url("https:/www.sukriti.ngo/Avenir/PROXIMA NOVA SOFT BOLD.OTF");
 }
 @font-face {
     font-family: Avenir;
-    src: url("../Avenir/AvenirLTStd-Roman.otf");
+    src: url("https:/www.sukriti.ngo/Avenir/AvenirLTStd-Roman.otf");
 }
 @font-face {
     font-family: Avenir_book;
-    src: url("../Avenir/AvenirLTStd-Book.otf");
+    src: url("https:/www.sukriti.ngo/Avenir/AvenirLTStd-Book.otf");
 }
 @font-face {
   font-family: Avenir_heavy;
-  src: url("../Avenir/Avenir-Heavy.ttf");
+  src: url("https:/www.sukriti.ngo/Avenir/Avenir-Heavy.ttf");
 }
 @font-face {
   font-family: Avenir_medium;
-  src: url("../Avenir/Avenir-Medium.ttf");
+  src: url("https:/www.sukriti.ngo/Avenir/Avenir-Medium.ttf");
 }
 button:focus{
   outline:none !important;
@@ -123,13 +123,13 @@ margin-left: 39%;
 width: 330px;
 }
 .Banner_about{
-      background: url(../assets/ngo/ps-img-6674@3x.jpg);
+      background: url(https:/www.sukriti.ngo/assets/ngo/ps-img-6674@3x.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 78vh;
 }
 .Banner_home{
-      background: url(../assets/ngo/ps-img-667.jpg);
+      background: url(https:/www.sukriti.ngo/assets/ngo/ps-img-667.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 748px;
