@@ -3,27 +3,27 @@ body{
 }
 @font-face {
   font-family: ProximaNovaSoft ;
-  src: url("./Avenir/ProximaNovaSoft-Regular.otf");
+  src: url("../Avenir/ProximaNovaSoft-Regular.otf");
 }
 @font-face {
   font-family: ProximaNovaSoft-Bold ;
-  src: url("./Avenir/PROXIMA NOVA SOFT BOLD.OTF");
+  src: url("../Avenir/PROXIMA NOVA SOFT BOLD.OTF");
 }
 @font-face {
     font-family: Avenir;
-    src: url("./Avenir/AvenirLTStd-Roman.otf");
+    src: url("../Avenir/AvenirLTStd-Roman.otf");
 }
 @font-face {
     font-family: Avenir_book;
-    src: url("./Avenir/AvenirLTStd-Book.otf");
+    src: url("../Avenir/AvenirLTStd-Book.otf");
 }
 @font-face {
   font-family: Avenir_heavy;
-  src: url("./Avenir/Avenir-Heavy.ttf");
+  src: url("../Avenir/Avenir-Heavy.ttf");
 }
 @font-face {
   font-family: Avenir_medium;
-  src: url("./Avenir/Avenir-Medium.ttf");
+  src: url("../Avenir/Avenir-Medium.ttf");
 }
 button:focus{
   outline:none !important;
