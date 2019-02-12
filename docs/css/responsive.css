@@ -3457,7 +3457,7 @@ width: 104px;
     position: absolute;
   }
   #parent5{
-  width: 164.5px;
+      width: 164.5px;
     height: 164.5px;
     border-radius: 50%;
     background-size: contain;
@@ -3465,10 +3465,11 @@ width: 104px;
     margin-left: 30%;
     margin-top: 175%;
     position: absolute;
+    right: -41.9%;
   }
   #parent6{
-   width: 113.8px;
-    height: 113.8px;
+   width: 95px;
+    height: 95px;
     border-radius: 50%;
     background-size: contain;
     float: left;
