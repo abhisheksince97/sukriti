@@ -1795,3 +1795,12 @@ background-color: #44d8c2;
 #sulabh-img-container{
     padding-top:6px;
 }
+.p-text_about{
+  font-family: Avenir_book;
+    line-height: 1.6;
+    font-weight: normal;
+    padding:0px 105px;
+}
+.about_text_wrapper{
+  padding:109px;
+}

@@ -1987,7 +1987,7 @@ top: 75%;
 /* end */
 @media only screen and (max-width:320px){
 	.tabs-list-container{
-		width:200px;
+		width:175px;
 	}
 	.arrow{
 		margin-top:10%;
@@ -2856,6 +2856,16 @@ p.contact {
       width:56px;
       margin-left:38%;
     }
+    #sulabh-logo{
+          height: 70px;
+    width: 56px;
+    margin-top: -2%;
+    }
+    #cic-logo{
+          height: 62px;
+    width: 100px;
+    margin-left: 25%;
+    }
     .achievement-card .text-center .heading-text{
       font-size:12px !important;
     }
@@ -2949,7 +2959,7 @@ section.content {
     margin-left: 0%;
 }
 section.Banner .imageBanner img{
-	height:219px;
+	height:219px !important;
 }
 .Ecolet{
 	margin-top:8% !important;
@@ -3031,7 +3041,7 @@ section.Banner .imageBanner img{
     text-align: center;
     }
   #bannerTextCareer{
-		top: 52%!important;
+		top: 50%!important;
 		font-size: 20px;
 
 	}
@@ -3310,7 +3320,9 @@ section.Banner .imageBanner img{
   .p-text_about{
 	  font-size:12px !important;
 	  margin-top:8%;
-	  margin-bottom:20%;
+	  margin-bottom:10%;
+    padding:0;
+    line-height: 24px;
   }
   .about_sec{
 	  padding-left:0% !important;
@@ -3334,6 +3346,10 @@ section.Banner .imageBanner img{
   .p-text{
 	  font-size:12px;
   }
+  .about_text_wrapper{
+    padding:0;
+    padding-left:7%;
+  }
   .el_head{
 	  margin-left: 2%;
     width: 100%;
@@ -3342,16 +3358,16 @@ section.Banner .imageBanner img{
 	      margin-top: 282% !important;
   }
   #check {
-    width: 123%!important;
+        width: 145%!important;
     height: 910px!important;
-    margin-top: -450px;
+    margin-top: -100%;
     margin-bottom: -432%;
 }
 #ileft {
   margin-top: 30px !important;
 }
   .text_divide{
-	  margin-top:210%;
+	  margin-top:190%;
   }
   .advisor_p_txt{
 	  width: 286px;
@@ -3436,7 +3452,7 @@ width: 104px;
     height: 134.5px;
     border-radius: 50%;
     background-size: contain;
-    margin-top: 35%;
+    margin-top: 120%;
     margin-left: -49%;
     position: absolute;
   }
@@ -3447,7 +3463,7 @@ width: 104px;
     background-size: contain;
     float: left;
     margin-left: 30%;
-    margin-top: 84%;
+    margin-top: 175%;
     position: absolute;
   }
   #parent6{
@@ -3467,7 +3483,7 @@ width: 104px;
     background-size: contain;
     margin-left: -32%;
     position: absolute;
-    margin-top: 9%;
+    margin-top: 35%;
   }
   #parent8 {
         width: 165.5px;
@@ -3475,8 +3491,8 @@ width: 104px;
     border-radius: 50%;
     background-size: contain;
     float: right;
-    margin-left: 0%;
-    margin-top: -96%;
+    margin-left: 23%;
+    margin-top: 50%;
     position: absolute;
   }
   #parent9 {
@@ -3539,7 +3555,7 @@ width: 104px;
     position: absolute;
     width: 62.5px;
     height: 62.5px;
-    margin-top: 142%;
+    margin-top: 235%;
     margin-left: 29%;
   }
   #child6{
@@ -3838,6 +3854,7 @@ padding-left: 17px
 }
 #foot-img2 {
   height: 220px;
+  margin-top:2%;
 }
 footer{
   padding-top: 5px;
@@ -3845,13 +3862,15 @@ footer{
 }
 .footer-left{
 	position:absolute;
-	margin-top: 41%;
+	margin-top: 33%;
     padding: 10px;
     background: #2e3139;
 }
 .micon{
+      position: relative;
+    z-index: 960;
 	padding-left:66px;
-	padding-top:185px !important;
+	padding-top:20px !important;
 }
 .demopadding{
 	padding-top:10px;
@@ -3865,11 +3884,26 @@ p.contact {
     margin-top: 5%;
     text-align: center;
 }
+p.contact-right{
+  margin-top:150% !important;
+}
+.first-group{
+  width:48%;
+}
+p.contact:nth-child(odd){
+     margin-top: 225%;
+    position: relative;
+    z-index: 980; 
+}
+
 .footer-mid{
 	position:absolute;
 }
 .form_cont {
-    margin-left: 3%;
+       margin-left: 3%;
+    margin-top: 35%;
+    position: relative;
+    z-index: 970;
 }
 #footer5{
   padding-top: 2%;
@@ -3902,6 +3936,8 @@ p.contact {
 	height: 2px !important;
     width: 40px !important;
     border-radius: 3px;
+    position:relative;
+    left:2%;
     background-color: #00bfa5;
     border: none;
 	display:block;
