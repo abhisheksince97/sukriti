@@ -10,6 +10,10 @@ $('.owl-carousel').owlCarousel({
   responsiveClass: true,
   loop: true,
   responsive: {
+    0:{ 
+	    items:1,
+	    autoWidth:true
+    },
     320: {
       items: 1,
       autoWidth:true
