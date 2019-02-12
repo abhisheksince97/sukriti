@@ -701,9 +701,10 @@ $('.tabs-li').click(function(){
     $(".tabs-list").css("right",$(".tabs-list").css("right")+$(this).css("width"));
 });
 
-var showing_at_a_time=4;
-var initial_val=showing_at_a_time;
+var showing_at_a_time=$(".tabs-list-container").width()/175;
 var totalJobs=$(".tabs-li").length;
+var initial_val=showing_at_a_time;
+console.log(showing_at_a_time);
 $('.left-arrow').click(function(){
     if(initial_val!=showing_at_a_time)
     {   $(this).hide();
