@@ -11,7 +11,8 @@ $('.owl-carousel').owlCarousel({
   loop: true,
   responsive: {
     320: {
-      items: 1
+      items: 1,
+      autoWidth:true
     },
     568: {
       items: 2
