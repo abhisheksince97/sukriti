@@ -84,7 +84,7 @@ margin-top: 30px!important
 }
 #bannerTextAbout {
     position: absolute !important;
-    top: 173.53px !important;
+    top: 35vh !important;
     left: 50% !important;
     text-shadow: black 1px 5px 16px !important;
     transform: translate(-50%, -50%) !important;
@@ -145,7 +145,7 @@ margin-top: 30px!important
 .about2_small {
     margin: 0 !important;
     padding: 0 !important;
-    margin-top: 12% !important;
+    margin-top: 20vh !important;
     width: 100vw !important;
     top: 797px !important;
     height: 49px !important;
@@ -433,7 +433,7 @@ margin-top: 30px!important
 }
 #bannerTextAbout {
     position: absolute !important;
-    top: 173.53px !important;
+    top: 35vh !important;
     left: 50% !important;
     text-shadow: black 1px 5px 16px !important;
     transform: translate(-50%, -50%) !important;
@@ -459,7 +459,7 @@ margin-top: 30px!important
 
 .about_top{
     
-    margin-top: -220px !important;
+    margin-top: -45vh !important;
 }
 .our_v{
   margin-bottom:2% !important;
@@ -494,7 +494,7 @@ margin-top: 30px!important
 .about2_small {
     margin: 0 !important;
     padding: 0 !important;
-    margin-top: 12% !important;
+    margin-top: 13vh !important;
     width: 100vw !important;
     top: 797px !important;
     height: 49px !important;
@@ -782,7 +782,7 @@ margin-top: 30px!important
 }
 #bannerTextAbout {
     position: absolute !important;
-    top: 173.53px !important;
+    top: 35vh !important;
     left: 50% !important;
     text-shadow: black 1px 5px 16px !important;
     transform: translate(-50%, -50%) !important;
@@ -808,7 +808,7 @@ margin-top: 30px!important
 
 .about_top{
     
-    margin-top: -220px !important;
+    margin-top: -45vh !important;
 }
 .our_v{
   margin-bottom:2% !important;
@@ -843,7 +843,7 @@ margin-top: 30px!important
 .about2_small {
     margin: 0 !important;
     padding: 0 !important;
-    margin-top: 12% !important;
+    margin-top: 18vh !important;
     width: 100vw !important;
     top: 797px !important;
     height: 49px !important;
@@ -1192,7 +1192,7 @@ margin-top: 30px!important
 .about2_small {
     margin: 0 !important;
     padding: 0 !important;
-    margin-top: 12% !important;
+    margin-top: 18vh !important;
     width: 100vw !important;
     top: 797px !important;
     height: 49px !important;
@@ -1479,7 +1479,7 @@ margin-top: 30px!important
 }
 #bannerTextAbout {
     position: absolute !important;
-    top: 173.53px !important;
+    top: 35vh !important;
     left: 50% !important;
     text-shadow: black 1px 5px 16px !important;
     transform: translate(-50%, -50%) !important;
@@ -1505,7 +1505,7 @@ margin-top: 30px!important
 
 .about_top{
     
-    margin-top: -220px !important;
+    margin-top: -45vh !important;
 }
 .our_v{
   margin-bottom:2% !important;
@@ -1540,7 +1540,7 @@ margin-top: 30px!important
 .about2_small {
     margin: 0 !important;
     padding: 0 !important;
-    margin-top: -5% !important;
+    margin-top: 13vh !important;
     width: 100vw !important;
     top: 797px !important;
     height: 49px !important;
