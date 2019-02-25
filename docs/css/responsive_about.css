@@ -1131,7 +1131,7 @@ margin-top: 30px!important
 }
 #bannerTextAbout {
     position: absolute !important;
-    top: 173.53px !important;
+    top: 35vh !important;
     left: 50% !important;
     text-shadow: black 1px 5px 16px !important;
     transform: translate(-50%, -50%) !important;
@@ -1155,9 +1155,8 @@ margin-top: 30px!important
     font-size: 14px !important;
 }
 
-.about_top{
-    
-    margin-top: -220px !important;
+.about_top {
+    margin-top: -48vh !important;
 }
 .our_v{
   margin-bottom:2% !important;
@@ -1742,4 +1741,24 @@ button[type=submit] {
     height: 55px;
     width: 55px;
 }    
+}
+
+@media screen and (device-width: 393px) and (device-height: 786px){
+ .about2_small {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 18vh !important;
+    left: 3% !important;
+    width: 100vw !important;
+    top: 765px !important;
+    height: 49px !important;
+    z-index: 100 !important;
+    position: absolute !important;
+}   
+
+}
+@media screen and (min-device-width: 412px) and (max-device-width:414px) and (min-device-height: 846px){
+ .about_top {
+    margin-top: -50vh !important;
+}   
 }
