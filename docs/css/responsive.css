@@ -4566,9 +4566,10 @@ section.Banner .imageBanner img{
     }
     .resMedia {
     height: 115px;
-    padding-top:15% !important;
-        color: #fff;
-    }
+    padding-top: 15% !important;
+    background: #00bfa5;
+    color: #fff;
+}
     .media{
     font-size:16px;
     }
